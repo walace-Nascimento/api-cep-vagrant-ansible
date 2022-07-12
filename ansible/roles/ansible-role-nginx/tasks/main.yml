@@ -1,0 +1,19 @@
+---
+- name: Instalando nginx
+apt: 
+  name: nginx
+  state: latest
+
+- name: Copiando arquivo de configuração do nginx
+  copy:
+    src: "./files/default.conf"
+    dest: "/etc/nginx/conf.d"
+
+- name: Copiando arquivo cep.html
+  copy:
+    src: "./files/cep.html"
+    dest: "/var/www/html"
+
+- name: Reniciando serviço do nginx
+  service: name=nginx enabled=yes state=restarted
+...
