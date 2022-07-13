@@ -1,8 +1,8 @@
 ---
 - name: Instalando nginx
-apt: 
-  name: nginx
-  state: latest
+  apt: 
+    name: nginx
+    state: latest
 
 - name: Copiando arquivo de configuração do nginx
   copy:
