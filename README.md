@@ -1,6 +1,4 @@
 
-# cenario-vagrant-ansibLe
-=======
 # cenario-vagrant-ansible
 Tópicos
 
