@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # cenario-vagrant-ansibLe
 =======
 # cenario-vagrant-ansible
@@ -47,4 +47,3 @@ Tópicos
   Como foi escolhida no vagrantfile a opção "Public_Network", a aplicação pode ser testada com o seguinte caminho:
 
 *SEUIP/Cep.html*
->>>>>>> 32a1847e648bb68df6464e1483486b2668e314fe
